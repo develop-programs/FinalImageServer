@@ -5,6 +5,7 @@ const UserSchema = new mongoose.Schema(
     Image: String,
     URL: String,
     id: String,
+    Author:String
   },
   { timestamps: true }
 );
